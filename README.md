@@ -1,6 +1,17 @@
 # GTA 6 meme — make.fun bounty gta6-meme-x-01
 
-Entry repository for the make.fun bounty "Post a GTA 6 meme on X".
+[![make.fun · gta6-meme-x-01](https://make.fun/badge/gta6-meme-x-01.svg)](https://make.fun/bounty/gta6-meme-x-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01)
+[![rank](https://make.fun/badge/gta6-meme-x-01/tanned-and-coded/gta6-meme/rank.svg)](https://make.fun/bounty/gta6-meme-x-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01)
+[![reward](https://make.fun/badge/gta6-meme-x-01/tanned-and-coded/gta6-meme/reward.svg)](https://make.fun/bounty/gta6-meme-x-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01)
+
+Entry repository for the make.fun bounty ["Post a GTA 6 meme on X"](https://make.fun/bounty/gta6-meme-x-01).
+
+A GTA 6 launch-night queue meme: a skeleton who has been in line since
+2013 finally reaches the counter at a Leonida game store on launch
+night, still holding his 2013 queue ticket, while the make.fun ghost
+floats beside him. `main.ts` is a small Node 22 program that copies
+`POST.json` to the output directory. The meme was posted on X here:
+https://x.com/tannedandcoded/status/2124307454851006568
 
 ## The meme
 
@@ -17,13 +28,13 @@ Captions: "IN LINE SINCE 2013" / "GTA 6 LAUNCH NIGHT: FINALLY MY TURN".
 ## The post
 
 The exact post text lives in `POST_TEXT.txt`. It carries the bounty
-link and the play code `makefun-flag-bobcat-lychee`. Once the meme is
-posted on X from a public account, the post's address goes into
+link and the play code `makefun-flag-bobcat-lychee`. The meme was posted
+on X from the public account @tannedandcoded, and its address is in
 `POST.json`:
 
-    {"url": "https://x.com/<handle>/status/<id>"}
+    {"url": "https://x.com/tannedandcoded/status/2124307454851006568"}
 
-Until then `POST.json` holds the starter placeholder.
+Post: https://x.com/tannedandcoded/status/2124307454851006568
 
 ## The program
 
